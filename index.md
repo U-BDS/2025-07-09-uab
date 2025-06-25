@@ -131,7 +131,7 @@ LOCATION
 
 This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
-can use https://www.latlong.net/ to find the lat/long of an
+can use <https://www.latlong.net/> to find the lat/long of an
 address.
 {% endcomment %}
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
@@ -197,6 +197,7 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <p>Please attend our virtual office hours via <a href="https://tinyurl.com/mt5wfyrs">zoom</a> held every Thursday at 1:30p.m. CST if you need further help installing the software.</p>
 </p>
 
 {% comment %}
