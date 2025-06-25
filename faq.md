@@ -2,7 +2,7 @@
 title: FAQs
 ---
 
-> ## Do I need to install R, Rstudio, and other software before the workshop?
+> ## Do I need to install Python and other software before the workshop?
 >
 > Yes, please visit the [setup](https://u-bds.github.io/2024-03-18-uab/#setup) section of the site.
 >
