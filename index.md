@@ -46,7 +46,6 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 {% comment %}
 Check SWC curriculum
 {% endcomment %}
-B
 
 {% if site.carpentry == "swc" %}
 {% unless site.curriculum == "swc-inflammation" or site.curriculum == "swc-gapminder" %}
