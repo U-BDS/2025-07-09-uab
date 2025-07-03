@@ -1,0 +1,109 @@
+<div id="sshkeys">
+<h3>SSH Token Setup</h3>
+
+<p>
+This is VERY important to do before the workshop in order to complete
+the Git workshop. This information can also be found <a href="https://swcarpentry.github.io/git-novice/07-github.html#create-an-ssh-key-pair">here</a>
+</p>
+
+<ol>
+<li><p>Open up your terminal (“git-bash” for Windows or “terminal” for Mac
+    and Linux)</p></li>
+<li><p>To create an SSH key pair use this command, where the `-t` option
+    specifies which type of algorithm to use:</p></li>
+<p>
+<code>       
+$ ssh-keygen -t ed25519
+</code> 
+</p>
+<li><p>The command will ask for a file name, press Enter to use the default</p></li>
+<p>
+<code>      
+    Generating public/private ed25519 key pair. Enter file in which to
+    save the key (/c/Users/Alfredo/.ssh/id_ed25519):
+</code>
+</p>
+<li><p>You’ll be prompted for a passphrase, be sure to pick something
+    memorable as there’s no “reset my password” option. You’ll also note
+    you won’t see any of the letters/numbers/symbols you type, this is
+    all normal and what you type is recorded even if they don’t show up</p></li>
+<p>
+<code>      
+Created directory '/c/Users/Alfredo/.ssh'. Enter passphrase (empty for
+no passphrase):
+</code> 
+</p>
+<li><p>You’ll be prompted to enter the passphrase again, enter the same
+    passphrase you entered in step 3</p></li>
+<p>
+<code>       
+Enter same passphrase again:
+</code>  
+</p>
+<li><p>After entering the passphrase, you will see something like below.
+    (note the specific output will be different for your system, that is
+    normal). This means the ssh key is created.</p></li>
+<p>
+<code>    
+Your identification has been saved in /c/Users/Alfredo/.ssh/id_ed25519<br>
+Your public key has been saved in /c/Users/Alfredo/.ssh/id_ed25519.pub<br>
+The key fingerprint is:<br>
+SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o a.linguini@ratatouille.fr<br>
+The key's randomart image is:<br>
++--[ED25519 256]--+<br>
+|^B== o.          |<br>
+|%*=.*.+          |<br>
+|+=.E =.+         |<br>
+| .=.+.o..        |<br>
+|....  . S        |<br>
+|.+ o             |<br>
+|+ =              |<br>
+|.o.o             |<br>
+|oo+.             |<br>
++----[SHA256]-----+<br>
+</code>   
+</p>
+<li><p>Run the below command</p></li>
+<p>
+<code>     
+$ cat ~/.ssh/id_ed25519.pub
+</code> 
+</p>
+<li><p>Copy what is output to the command line, it should look like the
+    below:</p></li>
+<p>
+<code>        
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI
+</code> 
+</p>
+<li><p>Go to github.com and login to your account</p></li>
+
+<li><p>Click on the profile icon in the top right corner to access the drop
+    down menu</p></li>
+
+<li><p>Click “Settings”</p></li>
+
+<li><p>Click “SSH and GPG Keys” on the left side, with the “Access” menu</p></li>
+
+<li><p>Click the “New SSH Key” button</p></li>
+
+<li><p>Enter a name for the SSH Key (something easy to remember)</p></li>
+
+<li><p>Paste your key you copied from step 7 into the large text box</p></li>
+
+<li><p>Click “Add SSH key” to complete setup</p></li>
+
+<li><p>Go back to the command line, and run this command</p></li>
+<p>
+<code>       
+$ ssh -T git@github.com
+</code> 
+</p>
+<li><p>You should receive output like the below, indicating it a success!</p></li>
+<p>
+<code>      
+Hi Alfredo! You've successfully authenticated, but GitHub does not provide shell access.
+</code>
+</p>
+</ol>
+</div>
