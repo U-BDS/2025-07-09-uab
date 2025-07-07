@@ -199,7 +199,7 @@ Modify the block below if there are any special requirements.
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
   <p>We will be hosting two helper sessions to assist with package and software installations if you encounter any issues:
   <ul>
-    <li><strong>Session 1</strong> will be on 7/8/25 from 8a.m. - 10a.m. CST. Zoom link is available <a href="https://uab.zoom.us/j/84101430182">here</li>
+    <li><strong>Session 1</strong> will be on 7/8/25 from 8a.m. - 10a.m. CST. Zoom link is available <a href="https://uab.zoom.us/j/84101430182">here</a></li>
     <li><strong>Session 2</strong> will be on 7/8/25 from 3p.m. - 5p.m. CST. Zoom link is available <a href="https://uab.zoom.us/j/84180712564">here</a></li>
   </ul></p>
 </p>
