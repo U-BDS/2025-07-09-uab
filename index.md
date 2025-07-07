@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "The University of Alabama at Birmingham"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "701 19th Street South, Birmingham, AL 35233"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "701 19th Street South, Birmingham, AL 35233 (Room 102)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "33.505215"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -197,7 +197,11 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
-  <p>Please attend our virtual office hours via <a href="https://tinyurl.com/mt5wfyrs">zoom</a> held every Thursday at 1:30p.m. CST if you need further help installing the software.</p>
+  <p>We will be hosting two helper sessions to assist with package and software installations if you encounter any issues:
+  <ul>
+    <li><strong>Session 1</strong> will be on 7/8/25 from 8a.m. - 10a.m. CST. Zoom link is available <a href="https://uab.zoom.us/j/84101430182">here</li>
+    <li><strong>Session 2</strong> will be on 7/8/25 from 3p.m. - 5p.m. CST. Zoom link is available <a href="https://uab.zoom.us/j/84180712564">here</a></li>
+  </ul></p>
 </p>
 
 {% comment %}
